@@ -1,0 +1,41 @@
+@font-face{
+	font-family:'NotoSansKR_100';
+	font-style:normal;
+	font-weight:100;
+	src:url('/font/NotoSansKR-Thin.eot');
+	src:local('※'), url('/font/NotoSansKR-Thin.eot?#iefix') format('embedded-opentype'), url('/font/NotoSansKR-Thin.woff') format('woff'), url('/font/NotoSansKR-Thin.otf') format('opentype');
+}
+@font-face{
+	font-family:'NotoSansKR_300';
+	font-style:normal;
+	font-weight:300;
+	src:url('/font/NotoSansKR-Light.eot');
+	src:local('※'), url('/font/NotoSansKR-Light.eot?#iefix') format('embedded-opentype'), url('/font/NotoSansKR-Light.woff') format('woff'), url('/font/NotoSansKR-Light.otf') format('opentype');
+}
+@font-face{
+	font-family:'NotoSansKR_400';
+	font-style:normal;
+	font-weight:400;
+	src:url('/font/NotoSansKR-Regular.eot');
+	src:local('※'), url('/font/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'), url('/font/NotoSansKR-Regular.woff') format('woff'), url('/font/NotoSansKR-Regular.otf') format('opentype');
+}
+@font-face{
+	font-family:'NotoSansKR_500';
+	font-style:normal;
+	font-weight:500;
+	src:url('/font/NotoSansKR-Medium.eot');
+	src:local('※'), url('/font/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'), url('/font/NotoSansKR-Medium.woff') format('woff'), url('/font/NotoSansKR-Medium.otf') format('opentype');
+}
+@font-face{
+	font-family:'NotoSansKR_700';
+	font-style:normal;
+	font-weight:700;
+	src:url('/font/NotoSansKR-Bold.eot');
+	src:local('※'), url('/font/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'), url('/font/NotoSansKR-Bold.woff') format('woff'), url('/font/NotoSansKR-Bold.otf') format('opentype');
+}
+
+body, input, select, textarea, button {font-family:'NotoSansKR_400',"돋움",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;}
+.fw100 {font-weight:100;font-family:"NotoSansKR_100","돋움",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;}
+.fw300 {font-weight:300;font-family:"NotoSansKR_300","돋움",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;}
+.fw500 {font-weight:500;font-family:"NotoSansKR_500","돋움",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;}
+.fw700 {font-weight:700;font-family:"NotoSansKR_700","돋움",Dotum,Helvetica,"Apple SD Gothic Neo",Sans-serif;}

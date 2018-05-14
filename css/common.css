@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body, input, select, textarea, button {font-family:'NotoSansKR_400',NotoSansKR,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-size:14.5px;line-height:1.5;color:#333;}
+a {text-decoration:none;color:#333;background-color:transparent;}
+a:hover, a:focus {color:#f00;outline:0;}
+
+#header_wrap, #container_wrap, #footer_wrap {min-width:1000px;position:relative;}
+#header_wrap {z-index:999;}
+#header {height:100px;width:1000px;left:50%;margin-left:-500px;position:relative;z-index:999;background-color:gold;}
+#container {width:1000px;left:50%;margin-left:-500px;position:relative;background-color:salmon;}
+#footer {height:100px;width:1000px;left:50%;margin-left:-500px;position:relative;background-color:cornflowerblue;}
+
+#header .logo {}
+
+/* utilmenu */
+.utilmenu {position:absolute;right:0px;top:5px;}
+.utilmenu li {float:left;padding:0 10px;/*background:url('/images/common/sep_util.jpg') 0 8px no-repeat;*/}
+.utilmenu li:first-child {padding-left:0;background:none;}
+.utilmenu li:last-child {padding-right:0;}
+.utilmenu li a {font-size:0.9em;}
+
+/* gnb */
+#gnb {position:absolute;bottom:0px;right:0px;width:800px;height:40px;}
+#gnb a {display:block;vertical-align:top;text-align:center;}
+
+#gnb>li {float:left;position:relative;padding:0 10px;/*background:url('/images/common/sep_gnb.jpg') 0 10px no-repeat;*/}
+#gnb>li:first-child {background:none;}
+#gnb>li:last-child {padding-right:0;}
+
+#gnb>li>a {width:100px;height:40px;line-height:40px;color:#000;}
+
+#gnb>li:hover>a, #gnb>li.on>a {color:#f00;}
+
+#gnb ul {position:absolute;top:40px;width:300px;display:none;}
+#gnb ul.gnb1_sub {left:-10px;}
+#gnb ul.gnb2_sub {left:-10px;}
+#gnb ul.gnb3_sub {left:-10px;}
+#gnb ul.gnb4_sub {left:-10px;}
+#gnb ul.gnb5_sub {left:-10px;}
+#gnb ul.gnb6_sub {left:-10px;}
+
+#gnb ul li {float:left;margin-right:10px;}
+#gnb ul a {width:100px;height:30px;color:#000;}
+#gnb ul.gnb1_sub .sub1 {width:50px;}
+#gnb ul.gnb1_sub .sub2 {width:50px;}
+#gnb ul.gnb1_sub .sub3 {width:50px;}
+#gnb ul.gnb1_sub .sub4 {width:50px;}
+#gnb ul.gnb1_sub .sub5 {width:50px;}
+#gnb ul.gnb1_sub .sub6 {width:50px;}
+
+#gnb ul a:hover {color:#f00;}
+
+/* footer */
+#footer .logo_foot {padding:10px 0 0 10px;}
+#footer .addr {}
+#footer .addr .sep_foot {margin:0 5px;}
+#footer .copy {/*font-family:Tahoma,Helvetica,Roboto,'Apple SD Gothic Neo',Arial,'NotoSansKR_400',NotoSansKR,'Century Gothic',CenturyGothic,Geneva,AppleGothic,sans-serif;*/}

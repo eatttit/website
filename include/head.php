@@ -32,7 +32,7 @@
     <script type="text/javascript" src="/js/sub.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
 	<!--[if lt IE 9]>
-		<script type="text/javascript" src="/js/ie/ie8-body.js"></script>
+		<script type="text/javascript" src="/js/ie/respond.js"></script>
 	<![endif]-->
 </head>
 

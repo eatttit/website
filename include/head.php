@@ -9,13 +9,13 @@
 	<!-- <meta http-equiv="Cache-Control" content="no-cache"/>
 	<meta http-equiv="Expires" content="0"/>
 	<meta http-equiv="Pragma" content="no-cache"/> -->
-	<meta name='viewport' content='user-scalable=yes, width=1200' />
+	<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1" />
 	<meta name="format-detection" content="telephone=no, address=no, email=no" />
 	<meta name="naver-site-verification" content="<?=$meta_naver_verification?>"/>
 	<meta name="description" content="<?=$meta_description?>">
 	<title><?=$site_title?></title>
 	<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="/css/font_notosanskr.css" />
+	<link rel="stylesheet" type="text/css" href="/css/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="/css/common.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="/slick/slick.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="/slick/slick-theme.css" media="all" />
@@ -39,6 +39,6 @@
 <!--
 
 <style>
-.visualCnt #slider1 ul.content .visual_1612{background-position:50px center;} 
+.visualCnt #slider1 ul.content .visual_1612{background-position:50px center;}
 </style>
 -->

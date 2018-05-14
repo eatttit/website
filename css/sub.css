@@ -1,50 +1,5 @@
 @charset "utf-8";
 
-#visual {width:1920px;left:50%;margin-left:-960px;position:relative;}
-#lnb {float:left;width:250px;background-color:#65b4cc;}
-#content {float:right;width:750px;position:relative;background-color:#89cc65;}
-
-#lnb .title_side {height:80px;line-height:80px;font-size:1.3em;font-weight:700;text-align:center;}
-#lnb>ul {width:250px;}
-#lnb>ul>li {margin-bottom:1px;}
-#lnb li a {display:block;width:200px;height:30px;line-height:30px;color:#000;vertical-align:top;}
-#lnb li>a:hover, #lnb li>a.on {color:#f00;}
-
-/* 3depth */
-#lnb li ul {background-color:#414141;display:none;}
-#lnb li.on ul {display:block;}
-
-.depth3 {padding:7px 0 10px;}
-
-.path {position:absolute;top:10px;right:5px;}
-.path li {display:inline-block;zoom:1;*display:inline;padding:0 10px 0 16px;font-size:0.9em;color:#999;background:url('/images/misc/arr_depth01.png') 0 5px no-repeat;vertical-align:middle;}
-.path li:first-child {background:none;padding-left:0;}
-.path li:last-child {padding-right:0;}
-.path span {color:#333;font-weight:500;}
-
-.title_cont {padding:0 0 5px 2px;border-bottom:1px solid #000;font-size:1.6em;font-weight:500;}
-#inner_content {padding:30px 0;}
-
-
-/* 사이트맵 */
-.sm_wrap {font-size:12px;font-weight:600;color:#222;padding:20px 0 0 20px;}
-.sm_wrap>ul {float:left;width:100px;margin:10px 20px 40px;}
-.sm_wrap>ul.sm02 {width:430px;}
-.sm_wrap>ul.sm02>li {padding-left:10px;}
-.sm_wrap>ul.sm03 {width:600px;}
-.sm_wrap>ul.sm03>li {padding-left:10px;}
-.sm_wrap>ul.sm05 {width:140px;}
-.sm_wrap>ul.sm05>li {padding-left:10px;}
-.sm_wrap li {margin-bottom:5px;padding-left:20px;background:url('/images/misc/bull_01.jpg') 12px 10px no-repeat;}
-.sm_wrap>ul>li.sm_title {font-size:18px;padding-left:10px;padding-bottom:10px;margin-bottom:15px;background:none;border-bottom:2px solid #aaa;}
-.sm_wrap>ul li a:hover {padding-bottom:2px;border-bottom:1px solid #8c40a8;}
-
-.sm_wrap>ul ul {float:left;margin-right:25px;}
-.sm_wrap>ul ul li {padding-left:10px;background-position:2px 10px;}
-.sm_wrap>ul.sm02 ul li {padding-left:20px;padding-right:10px;background-position:10px 9px;}
-.sm_wrap>ul.sm03 ul li {padding-left:20px;padding-right:10px;background-position:10px 9px;}
-.sm_wrap>ul ul li.sm_title2 {font-size:14px;background:none;text-align:center;border-bottom:2px solid #555;padding:0 20px 5px 20px;margin-bottom:10px;}
-.sm_wrap>ul ul li.sm_title3 {background:none;font-size:13px;padding:3px 0;border-bottom:1px solid #777;}
 
 /* sticky foot */
 #footer_wrap {}
